@@ -1,0 +1,32 @@
+.estudios{
+    background: linear-gradient(to top, blue, rgb(252, 5, 211) );
+}
+.subtitulo{
+    text-align: center;
+    font-weight: 300;
+    color: #fcfafa;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+.contenedor-servicio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.checklist-servicio{
+    width: 45%;
+}
+
+.service{
+    margin-bottom: 20px;
+}
+.n-service{
+    margin-bottom: 7px;
+    color: rgb(252, 247, 247);
+}
+
+.bx-spa{
+    color: rgb(255, 9, 173);
+}

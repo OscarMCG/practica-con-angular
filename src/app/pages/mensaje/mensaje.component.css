@@ -1,0 +1,15 @@
+.fondo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background:linear-gradient(to left, rgb(0, 110, 255), rgb(156, 4, 245));
+    border-radius: 15%;
+    border-style: shadow 1px 1px black;
+}
+.mensaje{
+   font-size: x-large;
+    text-align: center;
+    color: rgb(2, 0, 2);
+    text-shadow: 1px 1px rgb(230, 11, 219);
+}

@@ -1,0 +1,31 @@
+.footer{
+   display: flex;
+   top: 400px;
+   background-color: black;
+}
+
+.titulo{
+    color: blueviolet;
+    margin:  5px;
+    padding: 5px;
+    height: 20px;
+    width: 250px;
+}
+
+.bxl-facebook{
+    color: blue;
+
+}
+
+.bxl-instagram{
+    color: rgb(205, 94, 50);
+   
+}
+
+.bxl-whatsapp{
+    color: green;
+}
+.bxl-tiktok{
+    color: antiquewhite;
+}
+

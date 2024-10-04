@@ -1,0 +1,45 @@
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.video{
+    
+    padding: 5px;
+    border: ridge 5px rgb(255, 0, 255);
+}
+
+h1{
+    color: azure;
+    text-align: center;
+}
+
+.fotos{
+
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    height: 430px;
+}
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+    &:hover{
+        cursor: crosshair;
+        width: 300px;
+        opacity: 1;
+        filter: contrast(120%);
+    }
+}
+
+.texto{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
